@@ -586,7 +586,6 @@ local function checkStarSign()
                 sendWebhook("Star Sign collected!!!", {
                     { name = "Player", value = Player.Name, inline = false },
                     { name = "Star Sign", value = name, inline = false },
-                    { name = "Star Cub", value = name, inline = false },
                     { name = "Amount", value = tostring(amount), inline = false }
                 }, 65280)
 
